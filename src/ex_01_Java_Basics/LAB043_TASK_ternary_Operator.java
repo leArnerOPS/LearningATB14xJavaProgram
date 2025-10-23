@@ -13,11 +13,11 @@ public class LAB043_TASK_ternary_Operator {
 
 //        max between 3 numbers .>> int n1=2; int n2=9; int n3=-11;
 
-        int n1= 99;
+        int n1= 2;
         int n2= 9;
-        int n3= 780;
-        String result_max= n1 > n2 ? (n1 > n3 ? "n1" : "n3") : (n2 > n3 ? "n2" : "n3");
-        System.out.println(result_max);
+        int n3= -11;
+        String result_max= (n1 > n2) ? (n1 > n3) ? "n1" : "n3" : (n2 > n3) ? "n2" : "n3";
+        System.out.println( result_max );
 
 
 
